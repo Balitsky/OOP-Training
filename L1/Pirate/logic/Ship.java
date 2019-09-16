@@ -7,9 +7,12 @@ public class Ship {
     private Pirate[] pirates;
     private int gold;
     private String name;
+    private int capacity;
+
 
     public Ship(String name){
         this.name = name;
+        capacity = 250;
     }
 
     public void setCap(Pirate cap) {
@@ -36,9 +39,14 @@ public class Ship {
         this.gold = gold;
     }
 
+    public int getCapacity() {
+        return capacity;
+    }
+
     public void info() {
         System.out.println("---------------");
         System.out.println("Ship: " + this);
+        System.out.println("max" + capacity);
         System.out.println("cap: " + cap);
         System.out.println("pirates: ");
         System.out.println(Arrays.toString(pirates));

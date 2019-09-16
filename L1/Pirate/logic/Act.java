@@ -2,7 +2,7 @@ package L1.Pirate.logic;
 
 public class Act {
     public static class Scena_1 {
-        private static final Pirate DEAD_PIRATE = new Pirate("DEAD");
+        private static final Pirate DEAD_PIRATE = new Pirate("DEAD","");
 
         public static void go(Ship ship) {
             doFight(ship);
