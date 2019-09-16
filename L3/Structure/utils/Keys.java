@@ -2,7 +2,7 @@ package L3.Structure.utils;
 
 public interface Keys {
 
-    interface States{
+    interface Locations {
         String HOME = "Home";
         String PUB = "Pub";
         String BIGHT = "Bight";
